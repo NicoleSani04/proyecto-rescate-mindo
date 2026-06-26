@@ -208,7 +208,7 @@ def zona_cabana_nala():
 # --------------------------------------------------------
 ventana = tk.Tk()
 ventana.title("MindoLogic - Aprendiendo Lógica de Programación")
-ventana.geometry("500x560")
+ventana.geometry("800x560")
 ventana.configure(bg="#2f3640") 
 
 # Estilos de texto
