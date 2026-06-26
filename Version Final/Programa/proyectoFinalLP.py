@@ -54,7 +54,12 @@ def mostrar_pantalla_victoria():
     
     # Intentamos cargar la imagen "victoria.jpeg". Si no la encuentra, mostramos un texto de error.
     try:
-        img_original = Image.open("victoria.jpeg")
+        import os
+
+        ruta_actual = os.path.dirname(os.path.abspath(__file__))
+        ruta_imagen = os.path.join(ruta_actual, "victoria.jpeg")
+
+        img_original = Image.open(ruta_imagen)
         img_redimensionada = img_original.resize((400, 500), Image.Resampling.LANCZOS)
         img_tk = ImageTk.PhotoImage(img_redimensionada)
         
