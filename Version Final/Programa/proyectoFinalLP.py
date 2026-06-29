@@ -132,7 +132,7 @@ def zona_mariposario_chester():
         messagebox.showinfo("Zona 2", "Tu perrito Chester ya esta a salvo contigo pidiendo mimos.", parent=ventana)
         return
 
-    intro = ("Narrador: Chester está hipnotizado persiguiendo mariposas de colores ¡necesita salir de ese lugar!.\n\n"
+    intro = ("Narrador: Chester está hipnotizado persiguiendo mariposas de colores ¡El necesita salir de ese lugar!.\n\n"
              "LECCIÓN LÓGICA: Compuerta 'OR'\n"
              "La regla es flexible. Funciona si AL MENOS UNA de las condiciones es verdadera o incluso si AMBAS lo son.\n\n"
              "Chester irá contigo si le ofreces su premio favorito, si haces sonar su juguete ruidoso o los dos al mismo tiempo.")
